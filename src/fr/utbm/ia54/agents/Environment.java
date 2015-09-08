@@ -126,7 +126,7 @@ public class Environment extends Agent{
 		  we keep a list of train by crossing. To update that list we check if the last car passed the crossing
 		  At that time we also inform the train, so it can return to usual speed and distance orders
 		  
-		  IMPROVEMENT : IRL only cars have sensors, so the first car should recieve the event,
+		  IMPROVEMENT : IRL only cars have sensors, so the first car should receive the event,
 		  and send it to its train, probably
 		  */
 		while(true) {
